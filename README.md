@@ -21,7 +21,9 @@ Contents
 #### - Modify RetinaNet code in [pytorch-retinanet official repository](https://github.com/yhenon/pytorch-retinanet) to build RetinaNet object detector optimized to human detection (fine-tuning the model using CrowdHuman dataset)
 
 #### - RetinaNet Train/Fine-tune/Validate/Inference/Visualization
-    
+
+  - Inference results of CrowdHuman (left: gt, right: predicted)
+  
   <img src="https://user-images.githubusercontent.com/52263269/236888024-a4486f83-8b5a-4159-83ba-ef949e337fb4.jpg" width="45%"></img> 
   <img src="https://user-images.githubusercontent.com/52263269/236888079-ad5bc26f-a146-4c4d-89e6-a51e62fc963a.jpg" width="45%"></img>
 
@@ -150,7 +152,6 @@ How to use
     --csv_classes ./class_names/coco_names_with_head.csv \
     --csv_val ./data/CrowdHuman/valid_annotations.csv \
     --model_path {pretrained_weights_path}
-
   ```
   
 #### - Visualization of inference results
@@ -170,7 +171,6 @@ How to use
     --csv_classes ./class_names/coco_names_with_head.csv \
     --csv_val ./data/CrowdHuman/valid_annotations.csv \
     --model_path {pretrained_weights_path}
-
   ```
   
 
