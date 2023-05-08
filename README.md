@@ -13,7 +13,7 @@ Description
   
 #### - Architecture of RetinaNet
 
-<img src="https://user-images.githubusercontent.com/52263269/236881993-859cb50c-2349-45b3-9db1-2dae1151e05c.png" width="60%"></img> 
+<img src="https://user-images.githubusercontent.com/52263269/236881993-859cb50c-2349-45b3-9db1-2dae1151e05c.png" width="75%"></img> 
 
 Contents
 =============
